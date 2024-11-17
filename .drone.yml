@@ -59,7 +59,7 @@ steps:
   image: git.cryptic.systems/volker.raschek/git:1.3.1
 
 - name: git-push
-  image: docker.io/appleboy/drone-git-push:1.1.0
+  image: docker.io/appleboy/drone-git-push:1.1.1
   settings:
     branch: master
     remote: ssh://aur@aur.archlinux.org/rpm-builder.git
