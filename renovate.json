@@ -1,15 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "assignees": [ "volker.raschek" ],
-  "labels": [ "renovate" ],
-  "packageRules": [
-    {
-      "addLabels": [ "renovate/droneci", "renovate/automerge" ],
-      "automerge": true,
-      "matchManagers": "droneci",
-      "matchUpdateTypes": [ "minor", "patch"]
-    }
-  ],
-  "rebaseLabel": "renovate/rebase",
-  "rebaseWhen": "behind-base-branch"
+  "extends": [
+    "local>volker.raschek/renovate-config:default#master",
+    "local>volker.raschek/renovate-config:container#master",
+    "local>volker.raschek/renovate-config:actions#master",
+    "local>volker.raschek/renovate-config:regexp#master"
+  ]
 }
