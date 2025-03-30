@@ -1,7 +1,7 @@
 # Maintainer: Markus Pesch <markus.pesch@cryptic.systems>
 
 pkgname=rpm-builder
-pkgver=0.8.1 # renovate: datasource=github-releases depName=Richterrettich/rpm-builder extractVersion:'^v?(?<version>.*)$'
+pkgver=0.8.1 # renovate: datasource=github-releases depName=Richterrettich/rpm-builder extractVersion='^v?(?<version>.*)$'
 pkgrel=1
 pkgdesc='Build rpms without a spec file. Pure Rust. No dependencies to librpm'
 arch=('x86_64')
