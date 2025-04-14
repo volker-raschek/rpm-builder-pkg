@@ -1,7 +1,6 @@
 # rpm-builder
 
 ![AUR version](https://img.shields.io/aur/version/rpm-builder?label=AUR)
-[![Build Status](https://drone.cryptic.systems/api/badges/volker.raschek/rpm-builder-pkg/status.svg)](https://drone.cryptic.systems/volker.raschek/rpm-builder-pkg)
 ![AUR votes](https://img.shields.io/aur/votes/rpm-builder)
 
 This repository contains build files to build the Arch Linux package `rpm-builder`. Instead of building the
