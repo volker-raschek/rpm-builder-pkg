@@ -3,7 +3,6 @@
   "extends": [
     "local>volker.raschek/renovate-config:default#master",
     "local>volker.raschek/renovate-config:container#master",
-    "local>volker.raschek/renovate-config:actions#master",
     "local>volker.raschek/renovate-config:regexp#master"
   ]
 }
